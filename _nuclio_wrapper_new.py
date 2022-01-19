@@ -101,7 +101,6 @@ class Wrapper(object):
         torch.cuda.empty_cache()
 
         while True:
-            torch.cuda.empty_cache()
 
             try:
 
