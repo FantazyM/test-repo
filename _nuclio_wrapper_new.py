@@ -98,8 +98,6 @@ class Wrapper(object):
 
     def serve_requests(self, num_requests=None):
         """Read event from socket, send out reply"""
-    torch.cuda.empty_cache()
-
         
         while True:
             try:
