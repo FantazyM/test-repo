@@ -100,7 +100,7 @@ class Wrapper(object):
         """Read event from socket, send out reply"""
         
         while True:
-            torch.cuda.empty_cache()
+        torch.cuda.empty_cache()
 
             try:
 
